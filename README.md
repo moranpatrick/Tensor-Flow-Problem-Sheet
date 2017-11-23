@@ -8,12 +8,18 @@ This problem sheet was completed using Jupyter Notebook. The Jupyter Notebook is
 
 To install Jupyter click [here](http://jupyter.org/install.html) for full instructions. I reccomend downloading the latest version of anaconda which comes with python and jupyter.
 
-You can view the notebook in this repository [here](https://github.com/moranpatrick/Tensor-Flow-Problem-Sheet/blob/master/TensorFlow-Iris-Problem-Sheet.ipynb) but you cannot interact with it. See "Running your own Notebook" below for more.
+You can view the notebook in this repository [here](https://github.com/moranpatrick/Tensor-Flow-Problem-Sheet/blob/master/TensorFlow-Iris-Problem-Sheet.ipynb) but you cannot interact with it. See "Running your own Notebook" below for more.  
+<br />  
 
-### Tensor Flow
-Tensorflow, released by Google in 2015, is an open source software library which allows developers to build and train deep learning models. To see it in action [click here](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.06501&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false). Tensorflow is written in python and is used for machine learning using neural networks. More information including lots of tutorials can be found [here](https://www.tensorflow.org/get_started/).
+<img src="https://blog.keras.io/img/keras-tensorflow-logo.jpg" width="500" height="150">  
+
+Tensorflow, released by Google in 2015, is an open source software library which allows developers to build and train deep learning models. To see it in action [click here](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.06501&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false). Tensorflow is written in python and is used for machine learning using neural networks. More information including lots of tutorials can be found [here](https://www.tensorflow.org/get_started/).  
+
+However, for this problem sheet I will be using [Keras](https://keras.io/). Keras, written in python, is a high level neural networks API which can can run on top of Tensorflow, CNTK and Theano. With Keras you can go from idea to result very quickly. Keras makes working with Tensorflow alot easier.
 
 ## Running your own Notebook
+If you would like to run my notebook on your own machine please follow these instructions: 
+
 Step 1. To run this notebook on your own machine make sure have tensor flow installed. Full instructions on how to install tensorflow can be found [here](https://www.tensorflow.org/install/).   
 Step 2: Download the requirements.txt file from this repository.  
 Step 3: Open the notebook in this repository.  
@@ -52,3 +58,7 @@ Use the testing set to train your model.
 ## 4. Test the model
 
 Use the testing set to test your model, clearly calculating and displaying the error rate.
+
+#### References
+* Tensor Logo reference:  
+   https://blog.keras.io/img/keras-tensorflow-logo.jpg
